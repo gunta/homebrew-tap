@@ -1,8 +1,11 @@
 class Turboblake < Formula
   desc "BLAKE3 checksums, turbocharged: a drop-in b3sum with a Bend2 engine"
   homepage "https://gunta.github.io/BLAKE3-bend/"
-  version "1.8.7"
-  license any_of: ["CC0-1.0", "Apache-2.0", { "Apache-2.0" => { with: "LLVM-exception" } }]
+  license any_of: [
+    "CC0-1.0",
+    "Apache-2.0",
+    { "Apache-2.0" => { with: "LLVM-exception" } },
+  ]
 
   on_macos do
     on_arm do
