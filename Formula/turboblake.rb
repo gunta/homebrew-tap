@@ -2,7 +2,7 @@
 class Turboblake < Formula
   desc "BLAKE3 checksums, turbocharged: a drop-in b3sum with a Bend2 engine"
   homepage "https://gunta.github.io/turboblake/"
-  version "1.8.8"
+  version "1.8.9"
   license any_of: [
     "CC0-1.0",
     "Apache-2.0",
@@ -11,23 +11,23 @@ class Turboblake < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.8/turboblake-1.8.8-aarch64-apple-darwin.tar.gz"
-      sha256 "0a44d1c43f5647abab97b958d60d29c6a2026c11d391f078a8268fc77a85c05a"
+      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.9/turboblake-1.8.9-aarch64-apple-darwin.tar.gz"
+      sha256 "d1361731fcfe037509bdeab34578f3b94ea52ed5ce1e92cd5db7df779f3222f7"
     end
     on_intel do
-      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.8/turboblake-1.8.8-x86_64-apple-darwin.tar.gz"
-      sha256 "6ebc24e364840bcb36917881dfd8ca865da85b66078889e629df7398868ba0bb"
+      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.9/turboblake-1.8.9-x86_64-apple-darwin.tar.gz"
+      sha256 "44dfdde22a3801a546545b451a4ccae1bdd9c8b2eb15ef8f0f2e59db1154f616"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.8/turboblake-1.8.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "68f77792236ec74c7562b321aeb97b89d3f759e7533bc4e5a5a3f0076417f53a"
+      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.9/turboblake-1.8.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5f6cf2183e820459da19a633ce7f3d04455834085ba6d398ec2663be19bfaf52"
     end
     on_intel do
-      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.8/turboblake-1.8.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c51ad0d2550448696d45ce185f42bcdc63a38632ebc74215e9468eed323342d3"
+      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.9/turboblake-1.8.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c47c4a5a49cc4f24277c63cd9959695b95ccf8e3f4da8c5fc40e7f35c202791f"
     end
   end
 

@@ -2,7 +2,7 @@
 class Libturboblake < Formula
   desc "BLAKE3 C library (blake3.h) with big inputs hashed on every core by a Bend2 engine"
   homepage "https://gunta.github.io/turboblake/"
-  version "1.8.8"
+  version "1.8.9"
   license any_of: [
     "CC0-1.0",
     "Apache-2.0",
@@ -11,23 +11,23 @@ class Libturboblake < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.8/libturboblake-1.8.8-aarch64-apple-darwin.tar.gz"
-      sha256 "6088c3cd868c0aaf21e24fa8a7717e86670276bfc0a9dec985982ab964a5a635"
+      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.9/libturboblake-1.8.9-aarch64-apple-darwin.tar.gz"
+      sha256 "48593b6cfce38aeee0ee7a051253e346f0f482e8cd863cab281ab5ec13dc42ac"
     end
     on_intel do
-      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.8/libturboblake-1.8.8-x86_64-apple-darwin.tar.gz"
-      sha256 "022c95a3c7e72a068847e74cddff00d9300c0212e1de47c9d9b5bacc9151a544"
+      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.9/libturboblake-1.8.9-x86_64-apple-darwin.tar.gz"
+      sha256 "488ba58db76fa8217e7e8235206ff485f95ce0347303c5e08d606321c63d100c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.8/libturboblake-1.8.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "695cb127dc08de8954f7dbf1545b68352caf91c7b47bd04da08cfe62dab98ce4"
+      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.9/libturboblake-1.8.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "843d9a2f87b28e8806a5d59ee4f30846a03c556f8326d45efe79f3e59d5ff5b8"
     end
     on_intel do
-      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.8/libturboblake-1.8.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "03ba6256dda78bbccbc0ec6bdc379f1ef5f124b7ea10d18f3c3fdc4fdb68126a"
+      url "https://github.com/gunta/turboblake/releases/download/turboblake-v1.8.9/libturboblake-1.8.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5267337b6259d7539886848a03f55673b376fd4263fa61622b8b6afae7eed804"
     end
   end
 
